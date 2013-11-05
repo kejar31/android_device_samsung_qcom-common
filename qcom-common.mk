@@ -36,6 +36,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0 \
     qcom.hw.aac.encoder=true
 
+# Vendor init module
+PRODUCT_PACKAGES += \
+    libinit_msm
+
 # GalaxyS3Settings
 # TODO: Move here
 #PRODUCT_PACKAGES += \
